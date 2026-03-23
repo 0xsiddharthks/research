@@ -2,6 +2,9 @@
 * filter=git-crypt diff=git-crypt
 
 # Keep these unencrypted (readable on GitHub)
+LICENSE !filter !diff
 README.md !filter !diff
 .gitattributes !filter !diff
 .gitignore !filter !diff
+.claude/** !filter !diff
+.git-crypt/** !filter !diff
