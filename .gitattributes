@@ -1,0 +1,7 @@
+# Encrypt everything by default
+* filter=git-crypt diff=git-crypt
+
+# Keep these unencrypted (readable on GitHub)
+README.md !filter !diff
+.gitattributes !filter !diff
+.gitignore !filter !diff
